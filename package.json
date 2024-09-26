@@ -1,0 +1,21 @@
+{
+  "name": "noti-push",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env-cmd -f ./.env node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}
