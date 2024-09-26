@@ -1,6 +1,6 @@
 // app.js
 
-const publicVapidKey = process.env.PUBLIC_VAPID_KEY;
+const publicVapidKey = 'BJIScEXgwcdIRcDuzwQ7INl0lkeYb3Rbq2zy8Y2CA7gxiFXnmO6O63P5vbbUazxc8WXUEWpzkZYswzRLTgjgUDs';
 
 if ('serviceWorker' in navigator) {
   subscribeUser();
